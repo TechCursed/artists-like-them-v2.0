@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lobster&family=Nabla&family=Old+Standard+TT&family=Volkhov&family=Yellowtail&display=swap');*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+
+
+.app{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    background-color: #EF3F5A;
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   
+  h2{
+    margin-left: 10px;
+    font-family: 'Fugaz One', cursive;
+  }
+
+  a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h1{
+    text-align: center; 
+    color: antiquewhite;
+  }
+
+  .app__searchForm{
+    text-align: center;
+  }
+  .app_recipes{
+    /* display: flex;
+    flex-direction: column;
+    border: 1px solid; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  }
