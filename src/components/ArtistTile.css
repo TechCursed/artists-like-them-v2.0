@@ -1,0 +1,10 @@
+.ArtistsTile{
+  display: flex;
+}
+h3{
+    display: inline;
+}
+
+a{
+  display: inline;
+}
