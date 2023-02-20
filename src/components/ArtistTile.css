@@ -1,18 +1,29 @@
 
 .ArtistsTile{
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-ul{
-    list-style-type: none;
-    text-align: start;
-    color: whitesmoke;
-    font-size: 1rem;
+h3{
+    display: flex;
     float: left;
+    flex: 0.6;
+    color: black
 }
 
-li{
-    float: left;
+h2{
+    display: flex;
+    float: right;
 }
+
+a{
+    color: black
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 

@@ -49,7 +49,7 @@ return (
         <input
           className="app_input"
           type="text"
-          placeholder="Your artist name here"
+          placeholder="  Enter artist name"
           autoComplete="Off"
           value={query}
           onChange={(e) => setquery(e.target.value)}

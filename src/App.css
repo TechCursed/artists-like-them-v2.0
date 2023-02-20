@@ -33,19 +33,42 @@
   }
 
   .app__searchForm{
+
     text-align: center;
   }
+
+  .app_input{
+    height: 40px;
+    width: 30%;
+    opacity: 0.5;
+    border-radius: 10px;  
+    border: none;
+  }
+
+  ::placeholder { 
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    opacity: 1;
+  }
+
+  .app_submit{
+    height: 40px;   
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: #3F78BD;
+    border: none;
+  }
+
+  .app_submit:hover{
+    background-color: #C74573;
+  }
+
   .app_recipes{
-    /* display: flex;
-    flex-direction: column;
-    border: 1px solid; */
-    /* margin-left: 20%;
-    margin-right: 20%; */
 
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+
   }
