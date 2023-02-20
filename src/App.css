@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lobster&family=Nabla&family=Old+Standard+TT&family=Volkhov&family=Yellowtail&display=swap');*, *:before, *:after {
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Gloock&display=swap');
+
+*, *:before, *:after {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
@@ -19,7 +21,7 @@
   .app h2{
     margin-left: 10px;
     font-family: 'Fugaz One', cursive;
-    color: rgb(14, 8, 8);
+    color: rgb(32, 30, 30);
   }
 
   a{
@@ -28,7 +30,8 @@
 
   h1{
     text-align: center; 
-    color: white;
+    font-style: italic;
+    color: rgb(235, 234, 234);
   }
 
   .app__searchForm{
@@ -56,13 +59,16 @@
     margin-left: 5px;
     background-color: #3F78BD;
     border: none;
+    color: whitesmoke;
+    font-style: italic;
   }
 
   .app_submit:hover{
     background-color: #C74573;
+    
   }
 
-  .app_recipes{
+  .app_artist{
 
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -74,6 +80,17 @@
 
   @media only screen and (max-width: 400px) {
     
+    .app{
+      display: flex;
+      flex-direction: column;
+      scroll-behavior: smooth;
+      min-height: 100vh;
+      background-image: url('/images/background_mobile.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
     .app_input{
       opacity: 0.5;
       width: 50%;
@@ -85,8 +102,5 @@
       background-color: #3F78BD;
       border: none;
     }
-
-
-
 
   }

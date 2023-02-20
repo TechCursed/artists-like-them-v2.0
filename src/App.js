@@ -59,7 +59,7 @@ return (
 
       <br></br>  
 
-      <div className="app_recipes" >
+      <div className="app_artist" >
         {artists !== [] &&
           artists.map((artist) => {
             return <ArtistTile artist={artist} key={artist.name}/>
