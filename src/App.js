@@ -10,7 +10,7 @@ function App() {
   //for maintaining the state of artist queried
   const [artists, setArtists] = useState([]);
 
-  const APP_KEY = "dd8013a2d0275a318511e02e3a3e2e4f";
+  const APP_KEY = key;
 
   //URL for the API Call
   const url = `https://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${query}&api_key=${APP_KEY}&format=json`;

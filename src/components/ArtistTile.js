@@ -3,7 +3,6 @@ import "./ArtistTile.css";
 
 export default function ArtistTile({artist}) {
 
-
   return (
      
       <div className="ArtistsTile" >
