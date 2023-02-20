@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# ArtistsLikeThem
 
-Artists like them is a React web app which finds the artists simar to the artists you love.
+ArtistsLikeThem is a web app written in React which lets you find the artists simar to the artists you love.
 
