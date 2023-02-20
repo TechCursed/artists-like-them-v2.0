@@ -10,16 +10,16 @@
     flex-direction: column;
     scroll-behavior: smooth;
     min-height: 100vh;
-    background-color: #EF3F5A;
     background-image: url('/images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
    
-  h2{
+  .app h2{
     margin-left: 10px;
     font-family: 'Fugaz One', cursive;
+    color: rgb(14, 8, 8);
   }
 
   a{
@@ -28,7 +28,7 @@
 
   h1{
     text-align: center; 
-    color: antiquewhite;
+    color: white;
   }
 
   .app__searchForm{
@@ -73,7 +73,6 @@
   }
 
   @media only screen and (max-width: 400px) {
-    
     
     .app_input{
       opacity: 0.5;

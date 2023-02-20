@@ -6,21 +6,24 @@
     justify-content: center;
 }
 
-h3{
+.ArtistsTile h3{
     display: flex;
-    /* float: left; */
+    text-align: left;
+    font-family: 'Fugaz One', cursive;
     flex: 0.6;
     color: black;
     width: 100%;
 }
 
-h2{
+.ArtistsTile h4{
     display: flex;
-    /* float: right; */
+    text-align: right;
+    color: black;
+    font-family: 'Fugaz One', cursive;
 }
 
 a{
-    color: black
+    color: black;
 }
 
 a:hover{
