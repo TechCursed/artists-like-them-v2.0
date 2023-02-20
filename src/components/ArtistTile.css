@@ -8,14 +8,15 @@
 
 h3{
     display: flex;
-    float: left;
+    /* float: left; */
     flex: 0.6;
-    color: black
+    color: black;
+    width: 100%;
 }
 
 h2{
     display: flex;
-    float: right;
+    /* float: right; */
 }
 
 a{

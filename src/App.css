@@ -24,7 +24,6 @@
 
   a{
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
   }
 
   h1{
@@ -70,5 +69,25 @@
     backdrop-filter: blur( 4px );
    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    
+    
+    .app_input{
+      opacity: 0.5;
+      width: 50%;
+      border: none;
+    }
+
+    .app_submit{  
+      margin-left: 5px;
+      background-color: #3F78BD;
+      border: none;
+    }
+
+
+
 
   }
