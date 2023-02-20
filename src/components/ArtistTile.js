@@ -10,8 +10,8 @@ export default function ArtistTile({artist}) {
       <div className="ArtistsTile" >
         
         <h3>{artist.name}</h3>
-        <h2><a href={artist.url }  target="_blank"> Explore</a></h2>
-        
+        <h2><a href={artist.url }  target="_blank" rel="noopener noreferrer"> Explore</a></h2>
+
       </div>
       
   );
