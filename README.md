@@ -14,7 +14,7 @@ TRY IT : https://velvety-parfait-d89a67.netlify.app/
 
 ### Explore Page
 
-This is an external page where user gets directed upon clicking the eplore link
+This is an external page (offered by the API) of an individual artist where user gets directed upon clicking the eplore link.
 
 <img src = "https://github.com/TechCursed/artists-like-them-v2.0/blob/master/demo/redirect.png">
 
