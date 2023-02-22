@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.ArtistsTile h3{
+.ArtistsTile h4{
     display: flex;
     text-align: left;
     font-family: 'Gloock', serif;
@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.ArtistsTile h4{
+.ArtistsTile h5{
     display: flex;
     text-align: right;
     color: black;

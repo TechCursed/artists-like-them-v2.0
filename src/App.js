@@ -10,10 +10,10 @@ function App() {
   //for maintaining the state of artist queried
   const [artists, setArtists] = useState([]);
 
-  const APP_KEY = key;
+  const APP_KEY = "KEY";
 
   //URL for the API Call
-  const url = `https://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${query}&api_key=${APP_KEY}&format=json`;
+  const url = `https://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${query.trim()}&api_key=${APP_KEY}&format=json`;
 
   //fuction to fetch the results from the API 
   const getArtistInfo = async () => {
@@ -42,9 +42,9 @@ function App() {
 return (
   
     <div className="app">
-      <h2>🎧 ArtistsLikeThem</h2>
+      <h3>🎧 ArtistsLikeThem</h3>
 
-      <h1>Discover artists similar to the artist you love</h1>
+      <h2>Discover artists similar to the artist you love</h2>
       <form className="app__searchForm" onSubmit={onSubmit}>
         <input
           className="app_input"
